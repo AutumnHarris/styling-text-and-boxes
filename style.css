@@ -1,0 +1,66 @@
+/*  text styling below */
+body {
+  font-size: 26px;
+}
+
+p {
+  color: rgb(255,0,0);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+  line-height: 2;
+}
+
+a {
+  width: 150px;
+  background-color: red;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+/* styling boxes below */
+#boxStyling {
+  background-color: rgb(255, 255, 0);
+  color: blue;
+  background-image: url(http://bit.do/bg-image-demo);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  width: 350px;
+  padding-left: 20px;
+  background-size: 35px;
+  border: 6px solid blue;
+  border-radius: 6px;
+  font-weight: bold;
+}
+#boxStyling:hover {
+  background-image: url(smoke.png);
+}
+
+/* goofing on the css website */
+#gradient {
+  width: 500px;
+  height: 500px;
+
+  background: rgba(255,30,0,1);
+  background: -moz-linear-gradient(left, rgba(255,30,0,1) 0%, rgba(145,37,199,1) 85%, rgba(107,37,199,1) 92%, rgba(89,37,199,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,30,0,1)), color-stop(85%, rgba(145,37,199,1)), color-stop(92%, rgba(107,37,199,1)), color-stop(100%, rgba(89,37,199,1)));
+  background: -webkit-linear-gradient(left, rgba(255,30,0,1) 0%, rgba(145,37,199,1) 85%, rgba(107,37,199,1) 92%, rgba(89,37,199,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,30,0,1) 0%, rgba(145,37,199,1) 85%, rgba(107,37,199,1) 92%, rgba(89,37,199,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,30,0,1) 0%, rgba(145,37,199,1) 85%, rgba(107,37,199,1) 92%, rgba(89,37,199,1) 100%);
+  background: linear-gradient(to right, rgba(255,30,0,1) 0%, rgba(145,37,199,1) 85%, rgba(107,37,199,1) 92%, rgba(89,37,199,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1e00', endColorstr='#5925c7', GradientType=1 );
+
+  -webkit-box-shadow: 29px 26px 0px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 29px 26px 0px -10px rgba(0,0,0,0.75);
+  box-shadow: 29px 26px 0px -10px rgba(0,0,0,0.75);
+}
